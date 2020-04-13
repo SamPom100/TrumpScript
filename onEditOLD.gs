@@ -40,7 +40,7 @@ function myOnEdit2(e) {
     var Link = "http://bit.ly/2mg5RGm";
     Logger.log(TweetToSend);
     MailApp.sendEmail("3129272400@tmomail.net", "New Trump Tweet", "\n\n" + VolIndex + "\n\n\n" + TweetToSend);
-    MailApp.sendEmail("3129278600@tmomail.net", "New Trump Tweet", "\n\n" + VolIndex + "\n\n\n" + TweetToSend);
+    //MailApp.sendEmail("", "New Trump Tweet", "\n\n" + VolIndex + "\n\n\n" + TweetToSend);
     Logger.log("Done!");
     colors[temp][1] = '#90ee90'; //set green
     e.range.setBackgrounds(colors);
